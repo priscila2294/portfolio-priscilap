@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
@@ -12,21 +12,63 @@ const Skills = () => {
     <section id="contact">
       <Container>
         <Title title="Skills" />
-        {/* <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
-            </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn || "Let's Talk"}
-            </a>
-          </div>
-        </Fade> */}
+        <Row>
+          <Col md={4} sm={12}>
+          <div class="icon"><i class="fa fa-desktop fa-5x"></i></div>
+                <h2>
+                  <b>Front-End</b>
+                </h2>
+                <br />
+                Javascript
+                <br />
+                React
+                <br />
+                Bootstrap/Reactstrap
+                <br />
+                HTML
+                <br />
+                CSS/SCSS
+                <br />
+          </Col>
+          <Col md={4} sm={12}>
+             <div class="icon"><i class="fa fa-gear fa-spin fa-lg fa-5x"></i></div>
+                <h2>
+                  <b>Back-End</b>
+                </h2>
+                <br />
+                PostgresQL
+                <br />
+                Active Record
+                <br />
+                Rails
+                <br />
+                Ruby
+                <br />
+
+          </Col>
+          <Col md={4} sm={12}>
+          <div class="icon1" ><i class="fa fa-github fa-lg fa-5x"></i></div>
+          
+
+                <h2>
+                <b>Testing & Version Control</b>
+                </h2>
+                <br />
+                Jest
+                <br />
+                Rspec
+                <br />
+                Git
+                <br />
+
+          </Col>
+        </Row>
+       
+        <Row className="skills-wrapper">
+        
+          
+        </Row>
+        
       </Container>
     </section>
   );

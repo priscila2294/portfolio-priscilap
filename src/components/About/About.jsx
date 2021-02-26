@@ -41,13 +41,6 @@ const About = () => {
                   {paragraphOne ||
                     "My name is Priscila Perez, and I am a Junior Software Developer based in  San Diego. I am passionate about clean and concise code to support accessible user experiences. Strong background of leadership skills, teamwork, and creative problem solving. I  started my journey as a Software Developer in 2020 and have been loving every minute of it"}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'here you write why you love being a SD'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

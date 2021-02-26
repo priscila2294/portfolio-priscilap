@@ -21,37 +21,37 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  // resume: '/Priscila-Perez-Resume21.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'ca.png',
+    title: 'RORSCHACH',
+    info: 'React on Rails application built from scratch as a final capstone project for ECHO 2020 LEARN Academy cohort.',
+    info2: 'Rorschach is an interactive platform that allows its users to select a random picture from an external API, write a description, post it, and vote on other users’ posts.',
+    url: 'https://quiet-sea-29852.herokuapp.com/',
+    repo: 'https://github.com/priscila2294/Rorschach', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'piglatin.png',
+    title: 'PIG LATIN',
+    info: 'React application built from scratch as a project for ECHO 2020 LEARN Academy cohort.',
+    info2: 'This Pig Latin application allows its users to type sentences that will be dynamically translated into Pig Latin.',
+    url: 'https://vigilant-poitras-7c725d.netlify.app/',
+    repo: 'https://github.com/priscila2294/pig-latin-challenge-alan-alejandro-priscila', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'api.png',
+    title: 'EXTERNAL API',
+    info: 'React app built from scratch as a project for ECHO 2020 LEARN Academy cohort.',
+    info2: 'This application fetches jokes and images from two external APIS',
+    url: 'https://determined-lamarr-0c630b.netlify.app',
+    repo: 'https://github.com/priscila2294/pig-latin-challenge-alan-alejandro-priscila', // if no repo, the button will not show up
   },
 ];
 
